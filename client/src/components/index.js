@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PaperInfo from "../containers/paper-info";
+import LogicPuzzle from "./logic-puzzle";
 
 export  default class PaperEditor extends Component {
   componentWillUnmount() {
@@ -14,6 +15,7 @@ export  default class PaperEditor extends Component {
           </div>
           <div className="paper-body">
             <PaperInfo/>
+            <LogicPuzzle/>
           </div>
         </div>
     );
